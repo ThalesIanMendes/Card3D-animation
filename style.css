@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(50deg, rgb(0, 0, 0), rgb(22, 105, 118),rgb(213, 61, 227));
+}
+.box {
+    position: relative;
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+}
+
+.container1 {
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(1, 152, 154) , rgb(60, 171, 151) ,rgb(30, 255, 0));
+    box-shadow: 0px 0px 10px rgb(90, 232, 130);
+    border: 1px solid rgb(139, 139, 139);
+    transition: .8s;
+    transform: rotate3d(0.11, 1, 0.08, 70deg) scale(.9);
+    border-radius: 8px;
+    margin: 30px auto;
+    width: 280px;
+    height: 450px;
+}
+.container1:hover {
+    animation: flutuar 1s forwards;
+    box-shadow: 0px 0px 30px rgb(59, 59, 59);
+}
+.container1 img {
+    border-radius: 10px;
+    margin: 10px 10px 0 10px;
+    width: 93%;
+    border: 1px solid rgb(32, 32, 32);
+}
+.container1 p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 0 4px 0 4px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.container1 .text {
+    background-color: rgba(209, 209, 209, 0.347);
+    border-radius: 4px;
+    margin: 8px auto;
+    width: 90%;
+    height: 110px;
+}
+.container1 .text p{
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    color: rgb(52, 52, 52);
+}
+
+
+.container2 {
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(72, 154, 189) , rgb(125, 24, 169) ,rgb(255, 0, 251));
+    box-shadow: 0px 0px 10px rgb(213, 90, 232);
+    border: 1px solid rgb(139, 139, 139);
+    transition: .8s;
+    border-radius: 8px;
+    margin: 80px auto;
+    width: 280px;
+    height: 450px;
+}
+.container2:hover {
+    box-shadow: 0px 0px 30px rgb(59, 59, 59);
+}
+.container2 img {
+    border-radius: 10px;
+    margin: 10px 10px 0 10px;
+    width: 93%;
+    border: 1px solid rgb(32, 32, 32);
+}
+.container2 p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 0 4px 0 4px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.container2 .text {
+    background-color: rgba(209, 209, 209, 0.347);
+    border-radius: 4px;
+    margin: 8px auto;
+    width: 90%;
+    height: 110px;
+}
+.container2 .text p{
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    color: rgb(52, 52, 52);
+}
+
+
+.container3 {
+    cursor: pointer;
+    background-image: linear-gradient(45deg, rgb(17, 8, 114) , rgb(71, 18, 75) ,rgb(0, 0, 0));
+    box-shadow: 0px 0px 10px rgb(118, 90, 232);
+    border: 1px solid rgb(139, 139, 139);
+    transition: .8s;
+    transform: rotate3d(-0.11, 1, 0.08, -70deg) scale(.9);
+    border-radius: 8px;
+    margin: 30px auto;
+    width: 280px;
+    height: 450px;
+}
+.container3:hover {
+    animation: flutuar 1s forwards;
+    box-shadow: 0px 0px 30px rgb(59, 59, 59);
+}
+.container3 img {
+    border-radius: 10px;
+    margin: 10px 10px 0 10px;
+    width: 93%;
+    border: 1px solid rgb(32, 32, 32);
+}
+.container3 p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 0 4px 0 4px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.container3 .text {
+    background-color: rgba(209, 209, 209, 0.347);
+    border-radius: 4px;
+    margin: 8px auto;
+    width: 90%;
+    height: 110px;
+}
+.container3 .text p{
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    color: rgb(52, 52, 52);
+}
+
+
+@keyframes flutuar {
+    to {
+        transform: translateY(-20px) translateY(70px) scale(1);
+    }
+}
+
